@@ -1,0 +1,25 @@
+{
+        "version": "0.2.0",
+        "compounds": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Node+Browser",
+                "configurations": [ "Server", "Browser" ]
+            }
+        ],
+        "configurations": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Server",
+                "program": "${workspaceRoot}\\build\\server-config.js"
+            },
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Browser",
+                "program": "${workspaceRoot}\\build\\dev-server.js"
+            }
+        ]
+    }
