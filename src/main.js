@@ -3,7 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import io from 'socket.io'
+import * as io from 'socket.io-client'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -11,8 +12,5 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App },
-  created:function(){
-
-  }
+  components: { App }
 })

@@ -4,7 +4,7 @@ var clinets = new Array();
 server.on('connection',function(socket){
 	console.log('socket.id '+socket.id+': connecting');
 	var client={
-		socket:scoket,
+		socket:socket,
 		name:''
 	};
 	socket.on("message",function(name){
