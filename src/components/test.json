@@ -1,0 +1,51 @@
+{
+    "id": "node",
+    "type": "page",
+    "title": "First section",
+    "content": {
+        "title": "First Page",
+        "detail": "test"
+    },
+    "config": {
+        "themeColor": "green"
+    },
+    "children": [
+        {
+            "id": "node1",
+            "type": "the-section",
+            "content": {
+                "title": "First section",
+                "detail": "test"
+            },
+            "config": {
+                "themeColor": "green"
+            },
+            "children": [
+                {
+                    "id": "node1-1",
+                    "type": "paragraph",
+                    "content": {
+                        "title": "green",
+                        "detail": "test"
+                    }
+                },
+                {
+                    "id": "node1-2",
+                    "type": "paragraph",
+                    "content": {
+                        "title": "green",
+                        "detail": "test"
+                    }
+                },
+                {
+                    "id": "node1-3",
+                    "type": "paragraph",
+                    "content": {
+                        "title": "green",
+                        "detail": "test"
+                    }
+                }
+            ]
+        }
+    ]
+}
